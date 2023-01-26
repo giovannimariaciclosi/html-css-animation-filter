@@ -149,9 +149,36 @@
 
 /* /esercizio 10 */
 
+
+/* esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    font-size: 60px;
+    animation: rotate75 1s infinite linear;
+}
+
+@keyframes rotate75 {
+    0% {
+        transform: rotate(0deg);
+      }
+    75% {
+        transform: rotate(270deg);
+      }
+    100% {
+        transform: rotate(0deg);
+      }
+}
+
+
+/* /esercizio 11 */
+
+
+/* /esercizio 12 - 13 */
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -181,3 +208,31 @@
     width: 60px;
     height: 20px;
 }
+
+/* esercizio 12 */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: bottoneanimato 1s linear infinite;
+}
+@keyframes bottoneanimato {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 60%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bottoneanimato2 1s linear infinite;
+}
+@keyframes bottoneanimato2 {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: 60%;
+    }
+}
+
+
+/* /esercizio 12 - 13 */
