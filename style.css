@@ -97,11 +97,22 @@
 /* esercizio 7 */
 
 .ex-7-img {
-    transition: 1s;
+    transition: 2s;
 }
 
 .ex-7-img:hover {
-    filter: grayscale(1);
+    filter: hue-rotate(90deg) drop-shadow(16px 16px 20px red) invert(75%);
+}
+
+/* esercizio 8 */
+
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: hue-rotate(90deg) drop-shadow(16px 16px 20px red) invert(75%);
+    border-radius: 20%;
 }
 
 /* /esercizio 6 - 7 - 8 */
